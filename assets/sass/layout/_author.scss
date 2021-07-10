@@ -1,0 +1,32 @@
+//SECCIÓN SASS DE INFORMACIÓN DEL AUTOR CON ESTILOS Y NORMA BEM
+
+.author{
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999; 
+
+}
+
+.author__card__img{
+	width:150px;
+	
+}
+
+.author .card-title{
+	font-family: $playfair;
+	font-style: italic;
+}
+
+@media (max-width:800px){
+	h5{
+	vertical-align:center;
+	text-align:center;
+	}
+
+	.author a{
+	display: block;
+	text-align: center;
+	}
+}
+
+
+

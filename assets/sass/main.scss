@@ -1,0 +1,25 @@
+// main.scss # Manifest File
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Vendors
+@import 'vendors/bootstrap-v4.5/bootstrap';
+
+// Base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+// Components
+@import 'components/buttons';
+
+// Layout
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/article';
+@import 'layout/author';
+@import 'layout/paginator';
+@import 'layout/footer';
+

@@ -1,0 +1,36 @@
+//SECCIÓN SASS DE INFORMACIÓN DEL ARTICLE CON DECLARACIÓN DE ESTILOS, VARIABLES Y NORMA BEM
+
+.post__content__date {
+	font-family: $playfair;
+	font-weight: $regular;
+	font-size: $large;
+	color: $raisin-black;
+	opacity: 70%;
+	margin-top:5rem;
+	margin-bottom:5rem;
+
+}
+
+.post__content__entry p {
+	line-height:2em;
+	font-size: $medium;
+	margin-bottom:3em;
+	
+}
+
+.post__content__buttons {
+	color: $nickel;
+	margin-top: 5rem;
+	margin-bottom:6rem;
+	vertical-align:center;
+
+}
+
+@media (max-width:800px) {
+	.post__content__buttons {
+	vertical-align:center;
+	text-align:center;
+
+	}
+
+}
